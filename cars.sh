@@ -7,12 +7,12 @@ continue=true
 
 while $continue
 do	
-	echo Type the number one to enter a new car
-	echo Type the number two to display a list of cars
-	echo Type the number three to quit and exit the program
+	echo "Type the number one to enter a new car"
+	echo "Type the number two to display a list of cars"
+	echo "Type the number three to quit and exit the program"
 	read -r input
 
-	case $input in
+	case "$input" in
 		1)
 			clear
 			echo "Enter Year"
@@ -33,6 +33,7 @@ do
 			echo
 			;;
 		3)
+			echo "Good Bye!!!"
 			continue=false
 			clear
 			;;
