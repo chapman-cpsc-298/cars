@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #cars.sh
 #Vincent Jodjana
 
